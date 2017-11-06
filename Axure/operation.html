@@ -1,0 +1,638 @@
+
+<!-- saved from url=(0068)http://e-cology.com.cn/knowledgetool/template/Template7.jsp?mapId=10 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>泛微内部运营制度流程知识地图</title>
+<style>
+	body{
+		margin:0;
+		padding:0;
+		font-size: 12px;
+		min-width: 800px;
+    }
+    *{
+    	font-family: '微软雅黑';
+    }
+     a {
+		text-decoration: none;
+	}
+     .top {
+		height: 74px;
+		margin: 0 0 0 50px;
+		border-bottom: 1px solid #CFCFCF;
+	}
+	.topLeftDiv{
+		float: left;
+		font-size: 13px;
+		width: 200px;
+		margin-top: 7px;
+	}
+	.topLeftDiv div {
+		line-height: 20px;
+	}
+	.titleDiv1{
+/* 		float: left; */
+		font-size: 18px;
+		line-height: 108px;
+		font-weight: bold;
+		text-align: center;
+		text-indent: -200px;
+		height: 75px;
+	}
+	.logoDiv{
+		background: #fff url('/knowledgetool/images/logo.png') no-repeat 0;
+		width: 100px;
+		height: 75px;
+		top:0;
+		right:0;
+		position: absolute;
+	}
+	.leftFrameDiv{
+		height:100%;
+		width:70px;
+		background: #3072D3;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.menu {
+		position: fixed;
+		top: 100px;
+		right: 7%;
+		width: 200px;
+		border: 1px solid #DDD;
+		background: #FFF;
+		z-index: 10;
+		padding: 10px 0;
+	}
+	.menuMove {
+		position: absolute;
+/* 		right: -104px; */
+	}
+	.treeDiv_hover {
+		background: #F5F5F5;
+	}
+   #step-pager-list {
+		height: 100%;
+		width: 100%;
+	}
+    #step-pager-list li{
+        float: left;
+		height: 30px;
+		width: 100%;
+    }
+    .dotDiv{
+    	margin-top: 7px;
+		float: left;
+		background: url('/knowledgetool/images/p2.png');
+		width: 10px;
+		height: 10px;
+		margin-left: -6px;
+    }
+    .dotDivHover{
+    	background: url('/knowledgetool/images/p4.png');
+    }
+    .dotTopDiv,.dotBottomDiv{
+    	width:10px;
+    	height:10px;
+    	background: url('/knowledgetool/images/p1.png');
+    	margin-left: 16px;
+    }
+    .arrowDiv {
+		width: 18px;
+		height: 13px;
+		position: absolute;
+		left: -7px;
+		top: 7px;
+		background: url('/knowledgetool/images/p3.png') no-repeat;
+		z-index: 2;
+	}
+    .step-item-container {
+		padding-top: 10px;
+		position: relative;
+	}
+	.item-center {
+		margin-top: 20px;
+	}
+    .step-play-container{
+    	position: relative;
+		margin-left: 10px;
+		border-left: 1px solid #DDD;
+		margin-top: 20px;
+    }
+    .detailTitleDiv{
+    	line-height: 30px;
+		position: absolute;
+		margin-top: -20px;
+		width: 100%;
+    }
+    .serialNum{
+    	width: 22px;
+		height: 22px;
+		background: #4197E4;
+		float: left;
+		margin-top: 3px;
+		z-index: 1;
+		line-height: 22px;
+		text-align: center;
+		color: #fff;
+		margin-left: -1px;
+    }
+    .titleDiv{
+		font-size: 16px;
+		font-weight: bold;
+		float: left;
+		background: #fff;
+		z-index: 1;
+		padding: 0 10px;
+    }
+    .xLine{
+    	float: left;
+		height: 1px;
+		width: 100%;
+		background: #DDD;
+		margin-top: 15px;
+		z-index: -1;
+		position: absolute;
+    }
+    .mainDiv {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1200px;
+		min-width: 800px;
+	}
+	.leftMainDiv {
+		float: left;
+		width: 80%;
+	}
+	.rightMainDiv {
+		float: left;
+		width: 20%;
+		position: relative;
+	}
+	.treeDiv {
+		height: 24px;
+		line-height: 24px;
+		white-space: nowrap;
+		overflow: hidden;
+		cursor: pointer;
+		text-overflow: ellipsis;
+		margin-left: 15px;
+	}
+	.treeDiv span{
+		margin-right: 8px;
+	}
+	.rootDiv {
+		text-indent: 10px;
+		font-weight: bold;
+	}
+	.nodeDiv {
+		color: #939393;
+		text-indent: 24px;
+	}
+	.remarkComtainer{
+		min-width: 600px;
+		height: auto;
+		font-size: 12px;
+		font-weight: normal;
+		padding: 30px;
+		margin: 0 auto;
+		max-width: 1000px;
+	}
+</style>
+<script type="text/javascript" src="./泛微内部运营制度流程知识地图_files/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="./泛微内部运营制度流程知识地图_files/init.js"></script>
+<script type="text/javascript" src="./泛微内部运营制度流程知识地图_files/jquery.jNice.js"></script>
+
+<link rel="stylesheet" href="http://e-cology.com.cn/wui/theme/ecology8/page/perfect-scrollbar/perfect-scrollbar.css">
+<script type="text/javascript" src="./泛微内部运营制度流程知识地图_files/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="./泛微内部运营制度流程知识地图_files/jquery.mousewheel.js"></script>
+</head>
+<body>
+<div id="mainDiv" style="margin-right: 70px;">
+	<div class="top">
+		<div class="topLeftDiv">
+			<div>文档编号：000010</div>
+			<div style="color:#2D8B00;">凝聚分散智慧 协同提速发展</div>
+			<div>发布人员：<span><a href="javaScript:openFullWindowForXtable('/hrm/HrmTab.jsp?_fromURL=HrmResource&id=2610')">方烨良</a> </span></div>
+		</div>
+<!-- 		<div class="titleDiv1">泛微内部运营制度流程知识地图</div> -->
+	</div>
+	
+		<div style="margin: 0 0 0 50px;">
+			<div id="remarkComtainer" class="remarkComtainer">
+		       
+		       <iframe id="iframepage" src="./泛微内部运营制度流程知识地图_files/ShowFckEditorDesc(8).html" scrolling="no" width="100%" onload="iFrameHeight(this)" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0" height="599"></iframe>
+		   	</div>
+	   	</div>
+		
+	<div class="mainDiv">
+		<div class="leftMainDiv">
+			<div id="step-play-container" class="step-play-container">
+				 
+				    
+					<div id="div_34" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">1</div>
+				    		<div class="titleDiv">泛微立命之本</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="504" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1.html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_35" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">2</div>
+				    		<div class="titleDiv">泛微内部制度</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="1285" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(1).html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_36" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">3</div>
+				    		<div class="titleDiv">绩效考核制度</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="4017" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(2).html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_37" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">4</div>
+				    		<div class="titleDiv">分支机构制度</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="167" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(3).html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_38" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">5</div>
+				    		<div class="titleDiv">销售业务制度</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="165" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(4).html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_39" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">6</div>
+				    		<div class="titleDiv">系统使用规范</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="150" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(5).html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_40" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">7</div>
+				    		<div class="titleDiv">知识管理制度</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="150" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(6).html"></iframe>
+					    </div>
+					</div>
+				 
+				    
+					<div id="div_41" class="step-item-container">
+						<div class="detailTitleDiv">
+							<div class="serialNum">8</div>
+				    		<div class="titleDiv">其他运营制度</div>
+				    		<div class="xLine"></div>
+				    		<div style="clear: both;"></div>
+						</div>
+						
+						<div class="item-center">
+					    	<iframe name="contentFrame" onload="iFrameHeight(this)" height="1198" width="100%" allowtransparency="true" style="background: none;" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="./泛微内部运营制度流程知识地图_files/TemplateDetail1(7).html"></iframe>
+					    </div>
+					</div>
+				
+			</div>
+		</div>
+		<div class="rightMainDiv">
+			
+				<div id="menu" class="menu menuMove" style="right: -93.73px;">
+				<div class="dotTopDiv"></div>
+				<div id="treeScrollDiv" style="max-height: 300px; padding-right: 8px; overflow-y: hidden; outline: none;" tabindex="5000">
+					<div style="border-left: 2px solid #E2E2E2;margin-left: 20px;position: relative;">
+					<div class="arrowDiv" style="top: 7px;"></div>
+				     
+							<div id="mapFirst" class="menuItem">
+								<div class="dotDiv"></div>
+								<div class="rootDiv">
+									<div class="treeDiv" _index="-1">封面</div>
+								</div>
+							</div>
+							
+						    <div id="page_34" _index="34" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="泛微立命之本">
+						    		<div class="treeDiv" _index="34"><span>1</span>泛微立命之本</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="34_1" title="立命之本和组织结构"><span>1.1</span>立命之本和组织结构</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_35" _index="35" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="泛微内部制度">
+						    		<div class="treeDiv" _index="35"><span>2</span>泛微内部制度</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="35_1" title="泛微整体运营制度和流程"><span>2.1</span>泛微整体运营制度和流程</div>
+						    			
+						    			<div class="treeDiv" _index="35_2" title="人力资源部制度和流程"><span>2.2</span>人力资源部制度和流程</div>
+						    			
+						    			<div class="treeDiv" _index="35_3" title="技术开发部制度和流程"><span>2.3</span>技术开发部制度和流程</div>
+						    			
+						    			<div class="treeDiv" _index="35_4" title="市场管理部制度和流程"><span>2.4</span>市场管理部制度和流程</div>
+						    			
+						    			<div class="treeDiv" _index="35_5" title="销售管理部制度和流程"><span>2.5</span>销售管理部制度和流程</div>
+						    			
+						    			<div class="treeDiv" _index="35_6" title="渠道管理部制度和流程"><span>2.6</span>渠道管理部制度和流程</div>
+						    			
+						    			<div class="treeDiv" _index="35_7" title="项目管理部制度和流程"><span>2.7</span>项目管理部制度和流程</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_36" _index="36" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="绩效考核制度">
+						    		<div class="treeDiv" _index="36"><span>3</span>绩效考核制度</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="36_1" title="E-cology技术业务"><span>3.1</span>E-cology技术业务</div>
+						    			
+						    			<div class="treeDiv" _index="36_2" title="E-office技术业务"><span>3.2</span>E-office技术业务</div>
+						    			
+						    			<div class="treeDiv" _index="36_3" title="销售业务"><span>3.3</span>销售业务</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_37" _index="37" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="分支机构制度">
+						    		<div class="treeDiv" _index="37"><span>4</span>分支机构制度</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="37_1" title="分支机构相关制度和流程"><span>4.1</span>分支机构相关制度和流程</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_38" _index="38" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="销售业务制度">
+						    		<div class="treeDiv" _index="38"><span>5</span>销售业务制度</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="38_1" title="泛微销售业务相关制度和流程"><span>5.1</span>泛微销售业务相关制度和流程</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_39" _index="39" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="系统使用规范">
+						    		<div class="treeDiv" _index="39"><span>6</span>系统使用规范</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="39_1" title="泛微内部系统使用规范"><span>6.1</span>泛微内部系统使用规范</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_40" _index="40" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="知识管理制度">
+						    		<div class="treeDiv" _index="40"><span>7</span>知识管理制度</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="40_1" title="泛微内部知识管理制度"><span>7.1</span>泛微内部知识管理制度</div>
+						    			
+						    	</div>
+						    </div>
+						    
+						    <div id="page_41" _index="41" class="menuItem">
+						    	<div class="dotDiv"></div>
+						    	<div class="rootDiv" title="其他运营制度">
+						    		<div class="treeDiv" _index="41"><span>8</span>其他运营制度</div>
+						    	</div>
+						    	<div class="nodeDiv">
+						    		
+						    			<div class="treeDiv" _index="41_1" title="泛微其它运营管理制度和流程"><span>8.1</span>泛微其它运营管理制度和流程</div>
+						    			
+						    	</div>
+						    </div>
+						    	
+						</div>
+					</div>
+					<div class="dotBottomDiv"></div>
+				</div>
+				
+		</div>
+		<div style="clear: both;"></div>	
+	</div>
+	
+	    <div id="pg1" style="width: 100%;height: 20px;background-color: #9B9EA3;line-height: 20px;position: relative;bottom: 0;" title="所有内容未开始">
+			<div id="pg_txt" style="position: absolute;width: 100%;text-align: center;font-family: 微软雅黑;font-size: 11px;color: #fff">0%</div>
+			<div id="pg" style="background-color:#FE9115;height: 20px;width: 0%;"></div>
+		</div>
+	</div>
+<div class="leftFrameDiv" style="height: 8650px;"></div>
+<div class="logoDiv"></div>
+<script type="text/javascript"> 
+	$(function(){
+		$("#treeScrollDiv").perfectScrollbar();
+// 		Ps.initialize(document.getElementById('menu'));
+
+		//
+		var moveFlag = false;
+		$(".treeDiv").bind("click",function(){
+			if(moveFlag){
+				return;
+			}
+			var index = $(this).attr("_index");
+			var distance = 0;
+			if(index != "-1"){
+				var indexArr = index.split("_");
+				distance = $("#div_"+indexArr[0]).offset().top;
+				if(indexArr.length > 1){
+					distance += $("#div_"+indexArr[0]).find("iframe").contents().find("#tab_"+indexArr[1]).offset().top+40;
+				}
+			}
+			//箭头移动高度treediv的index*24-7
+			var arrowTop = jQuery(this).index(".treeDiv")*24+7;
+			moveFlag = true;
+			$("body").animate({
+				scrollTop : (distance-20)+"px"
+			},500,function(){
+				setTimeout(function(){moveFlag = false;},100)
+			});
+			
+			jQuery(".arrowDiv").animate({
+					top : arrowTop
+			},500);
+			
+		})
+		
+		//树节点悬浮事件
+		$(".treeDiv").hover(function(){
+// 			jQuery(".treeDiv_hover").removeClass("treeDiv_hover");
+			jQuery(this).addClass("treeDiv_hover");
+		},function(){
+			jQuery(this).removeClass("treeDiv_hover");
+		});
+		
+		jQuery("div[id^='ascrail'] div").css("opacity","0");
+		jQuery("#menu").hover(function(){
+			jQuery("div[id^='ascrail'] div").css("opacity","1");
+		},function(){
+			jQuery("div[id^='ascrail'] div").css("opacity","0");
+		});
+		//根节点悬浮事件
+		jQuery(".rootDiv").hover(function(){
+			jQuery(this).parent().find(".dotDiv").addClass("dotDivHover");
+		},function(){
+			jQuery(this).parent().find(".dotDiv").removeClass("dotDivHover");
+		});
+		
+		var scrollFlag = false;
+		//滚动条滚动事件
+		$(window).scroll( function() {
+			var winScroll = jQuery(window).scrollTop();
+			var containerTop = jQuery("#step-play-container").offset().top;
+			//menu距离右边body宽度的7%
+			var menuRight = jQuery("body").width()*0.07;
+			if(containerTop - winScroll < 100){
+				jQuery("#menu").removeClass("menuMove").css("right","7%");
+			}else{
+				//滚动到明细页面的时候添加menu移动的class
+				jQuery("#menu").addClass("menuMove").css("right","-"+menuRight);
+			}
+			
+			$("#treeScrollDiv").perfectScrollbar("update");
+			
+			if(moveFlag || scrollFlag){
+				return;
+			}
+			scrollFlag = true;
+			var arrowTop = 7;
+			//右侧的标题栏也随之滚动
+			jQuery(".step-item-container").each(function(){
+				var itemTop = jQuery(this).offset().top;
+				var i = jQuery(this).attr("id").replace("div_","");
+				if(winScroll > itemTop-30){
+					var index = jQuery(".treeDiv[_index='"+i+"']").index(".treeDiv");
+					arrowTop = index*24+7;
+				}
+				jQuery(this).find("iframe").contents().find("table[id^='tab_']").each(function(ii){
+					var tabTop = itemTop + jQuery(this).offset().top+30;
+					if(winScroll > tabTop){
+						var index = jQuery(".treeDiv[_index='"+i+"_"+(ii+1)+"']").index(".treeDiv");
+						arrowTop = index*24+7;
+					}
+				});
+			});
+			jQuery(".arrowDiv").animate({
+				top : arrowTop
+			},0,function(){
+				scrollFlag = false;
+			});
+			if(!moveFlag){
+				jQuery("#treeScrollDiv").scrollTop(arrowTop-30);
+			}
+		} );
+		var menuRight = jQuery("body").width()*0.07;
+		jQuery("#menu").addClass("menuMove").css("right","-"+menuRight);
+	});
+	function iFrameHeight(obj) { 
+	   var iframe = obj; 
+   		try{ 
+        var bHeight =   iframe.contentWindow.document.body.scrollHeight; 
+        var dHeight = iframe.contentWindow.document.documentElement.scrollHeight; 
+        var height = Math.max(bHeight, dHeight); 
+        iframe.height =  height; 
+        jQuery(".leftFrameDiv").height(jQuery("#mainDiv").height());
+   		 }catch (ex){} 
+	}
+	/*
+	* 解决IE不支持ScrollTop的问题
+	*/
+	 function setScrollTop(scroll_top) {
+        document.documentElement.scrollTop = scroll_top;
+        window.pageYOffset = scroll_top;
+        document.body.scrollTop = scroll_top;
+    }
+	
+	 /**
+	  * 设置总进度
+	  */
+	 function setPg(_width){
+	     finishRateChange(_width,true);
+	 }
+
+	 /**
+	  * 设置完成比
+	  */
+	 function finishRateChange(rate,isSetTime){
+	     $("#pg1").attr("title","所有内容已完成" + rate + "%");
+	     $("#pg").animate({"width":($("#pg1").width()*rate/100)+"px"},isSetTime?300:0);
+	     $("#pg_txt").text(rate + "%");
+	 }
+
+	 /**
+	  * 设置知识点进度
+	  */
+	 function setPg2(tId,_width){
+//	      $("#page_" + tId + " label").text(_width+"%");
+	 }
+</script> 
+
+<div id="ascrail2000" style="width: 8px; z-index: 10003; position: absolute; top: 855px; left: 1226.796875px; height: 300px; opacity: 0;"><div style="position: relative; top: 0px; float: right; width: 8px; height: 150px; border: none; border-radius: 5px; opacity: 0; background-color: rgb(153, 153, 153); background-clip: padding-box;"></div></div></body></html>

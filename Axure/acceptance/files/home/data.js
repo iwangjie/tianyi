@@ -1,0 +1,2629 @@
+﻿$axure.loadCurrentPage({
+  "url":"home.html",
+  "generationDate":new Date(1442209734203.31),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"rl_date",
+"rl_day"],
+  "page":{
+    "packageId":"0a0ad40d907243b982fae0544de9e8db",
+    "type":"Axure:Page",
+    "name":"Home",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5fa212189bb44cdd83b11f08175267a5",
+          "label":"内容显示",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":400,
+              "height":470}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onLoad":{
+              "description":"OnLoad",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"wait",
+                      "description":"等待4000毫秒",
+                      "waitTime":4000},
+{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 滚动循环2",
+                      "objectsToFades":[{
+                          "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待4000毫秒",
+                      "waitTime":4000},
+{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"wait",
+                      "description":"等待4000毫秒",
+                      "waitTime":4000},
+{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"wait",
+                      "description":"等待4000毫秒",
+                      "waitTime":4000},
+{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"wait",
+                      "description":"等待4000毫秒",
+                      "waitTime":4000},
+{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"wait",
+                      "description":"等待4000毫秒",
+                      "waitTime":4000},
+{
+                      "action":"moveWidget",
+                      "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                      "objectsToMoves":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"-80",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeInOutCubic",
+                              "duration":2000}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 滚动循环1",
+                      "objectsToFades":[{
+                          "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "percentWidth":1,
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"eef5958955cc43d6a949f1a22df15d32",
+              "label":"服务之星",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                  "label":"滚动循环1",
+                  "parentDynamicPanel":"5fa212189bb44cdd83b11f08175267a5",
+                  "panelIndex":0,
+                  "type":"dynamicPanel",
+                  "styleType":"dynamicPanel",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":400,
+                      "height":555}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onShow":{
+                      "description":"OnShow",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 到 (0,480)",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"location",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"480",
+                                      "stos":[]},
+                                    "options":{
+}}}]},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 滚动循环2",
+                              "objectsToFades":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环1 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 滚动循环1",
+                              "objectsToFades":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "scrollbars":"none",
+                  "fitToContent":false,
+                  "propagate":false,
+                  "diagrams":[{
+                      "id":"ea7b6977a28e41ae8c1d5ca8433d22f1",
+                      "label":"状态1",
+                      "type":"Axure:PanelDiagram",
+                      "objects":[{
+                          "id":"b838359ac00e472d81d4b450412fce01",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":65},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"1ecf8475e846449f8e0855abd48aaf65",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":10},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"123369ee1e3449ebb0de64c329096804",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":10},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u3.png"}},
+{
+                          "id":"4fc5229e7a424473be70213f7cc19277",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":15},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"4a5974e07c114898b7053f707d4139e6",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":15},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"ea5d36dc29e34532808535d79671eab1",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":145},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"8345b82414a943f0985e36d6c028b6c7",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":90},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"4648f2c6ece8456ebcbf403d7f9f5140",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":90},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u8.png"}},
+{
+                          "id":"83993b73beb34dc6aa06242273b1c695",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":95},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"b3f8aa78d1d74adda30b05ef45e11a8e",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":95},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"ac005da6f4314e618c32c63ae204f8ef",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":225},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"3d7001328a744bb1a32a4bc6e99e08b1",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":170},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"bf06666f201b4969adad7047a9c19495",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":170},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u13.png"}},
+{
+                          "id":"641da65274ea4ac99212ce7e3fd6be45",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":175},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"5bf10a2a07d143f4802e564151788160",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":175},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"625369d0ff52491ca3c94ef0b8e960f6",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":305},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"bc8d67db536c4a85afb5852ce11d156f",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":250},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"a8d99e46ca6f43e9a5f5d134138d6546",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":250},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u18.png"}},
+{
+                          "id":"726e39a1d7aa4d42bf8655669db77f36",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":255},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"3b44d7aa1e9a4b8c919114412cee1ce8",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":255},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"edbd710ef10f4862993009d333334120",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":386},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"abffff1ad4f84760ad5b72a43b511123",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":331},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"79b34088b0094477a7d6ffb698fa41f4",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":331},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u23.png"}},
+{
+                          "id":"05df5d15208244e88690219ddfb66cfd",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":336},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"fa4cdcf7c38546a1a392de85ad8fa593",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":336},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"0cd59b8a820f4f45aca0f4928e176ff0",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":464},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"2e7e857ba2ef4a84adfb28c34a327ded",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":409},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"484b452323d04f25a4e27b117708a6ae",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":409},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u28.png"}},
+{
+                          "id":"cbbfe7be9c4d4321ad2c311164449581",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":414},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"3c0229adb8aa412a9fd84678f2d738df",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":414},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"754daf04b5484f7e920d98d86b96f1b8",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":545},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"1343fa6ba0824d70855f9fc4e7182bc3",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":490},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"d96a53f81ab24bd3b0ebe27539c4bfc6",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":490},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u33.png"}},
+{
+                          "id":"76837c55829a4ad7b833771f5a306516",
+                          "label":"",
+                          "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":495},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f8bfa0edb12c4bb8b8e1b00cd1d27227",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"cc83d84b7aeb48469cf6f71bbc0a2b3e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":495},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}}],
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "image":null,
+                        "imageHorizontalAlignment":"near",
+                        "imageVerticalAlignment":"near",
+                        "imageRepeat":"auto"},
+                      "adaptiveStyles":{
+}}]},
+{
+                  "id":"56cf90579c1845f68c4a98df25c77c01",
+                  "label":"滚动循环2",
+                  "parentDynamicPanel":"5fa212189bb44cdd83b11f08175267a5",
+                  "panelIndex":0,
+                  "type":"dynamicPanel",
+                  "styleType":"dynamicPanel",
+                  "visible":false,
+                  "style":{
+                    "size":{
+                      "width":400,
+                      "height":555},
+                    "visible":false},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onShow":{
+                      "description":"OnShow",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 到 (0,480)",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"location",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"480",
+                                      "stos":[]},
+                                    "options":{
+}}}]},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"显示 滚动循环1",
+                              "objectsToFades":[{
+                                  "objectPath":["cc83d84b7aeb48469cf6f71bbc0a2b3e"],
+                                  "fadeInfo":{
+                                    "fadeType":"show",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"moveWidget",
+                              "description":"移动 滚动循环2 相对位置为 (0,-80) 缓慢进入退出 2000ms",
+                              "objectsToMoves":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "moveInfo":{
+                                    "moveType":"delta",
+                                    "xValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"0",
+                                      "stos":[]},
+                                    "yValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"-80",
+                                      "stos":[]},
+                                    "options":{
+                                      "easing":"easeInOutCubic",
+                                      "duration":2000}}}]},
+{
+                              "action":"wait",
+                              "description":"等待4000毫秒",
+                              "waitTime":4000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 滚动循环2",
+                              "objectsToFades":[{
+                                  "objectPath":["56cf90579c1845f68c4a98df25c77c01"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "scrollbars":"none",
+                  "fitToContent":false,
+                  "propagate":false,
+                  "diagrams":[{
+                      "id":"6432d887e90945f49df8e7c8334f7b8e",
+                      "label":"状态1",
+                      "type":"Axure:PanelDiagram",
+                      "objects":[{
+                          "id":"6991217c0d2b44afa4b7ca0b8f32d4b0",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":65},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"244f4a2a46e7447c846513c030bb2933",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":10},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"a159ba84b91a457bb53fdd8f6918bee0",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":10},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u3.png"}},
+{
+                          "id":"23e73229eaaf4338966fe7d2a6a9b8ad",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":15},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f49c194b4c054242b8ef037e28fd8168",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":15},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"04f6dfe989eb4e4bb7198ec72b7d1e96",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":145},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"2f1e0ae9cfa9450b881eb69827f4423c",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":90},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"235b856d99f746669c93c41c104e3d7c",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":90},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u8.png"}},
+{
+                          "id":"718525d16827494da31142594c649885",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":95},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"966d3c35948e4bfdb0b0d1b4627e2288",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":95},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"f1ab3bbc4a6a4d73ad7b7c88a1a60ca6",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":225},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"19c10c7218864db9b07d8f9f5104e810",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":170},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f889691e174445a2aa723bfef6ae0793",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":170},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u13.png"}},
+{
+                          "id":"90d7d72d72424deba089f7b40cb591d7",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":175},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8f10fe9d8b464ba68914381fc1c7eaa6",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":175},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"cf353e378c0c4aaca6fc668664ab49dc",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":305},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"c5bd77a09e4c48dcb407a5a134000d18",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":250},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"945183eaf2fc434482f26e393b56c2a1",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":250},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u18.png"}},
+{
+                          "id":"daaaffcae0ec465489f04623bc78e6ba",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":255},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f3e6c129403d48259b72ec7b73db0934",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":255},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"6dd431bed6474fb3b71c97f88cc10089",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":386},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"8f17f6debf284f29abdf7cb64d76936f",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":331},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8c11004a892f4633a7935e7f76894b15",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":331},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u23.png"}},
+{
+                          "id":"c6e231b2f7624bf687449415f8f61611",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":336},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"59c8c20e84634daa823ccb0481be679c",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":336},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"4670b5b3d3244c6f9a8eb0203c245037",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":464},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"cb6542fa90164160ac641a194c3ce056",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":409},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"4b17a1e49adc4288a5e896436c618ab0",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":409},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u28.png"}},
+{
+                          "id":"c11acbfbd4674932b3e0230e88bf829d",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":414},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"90daa53fe599455c9fb644e42a943b09",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":414},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}},
+{
+                          "id":"d3df41a5ed824735b7726c28c1dcd0fd",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"horizontalLine",
+                          "styleType":"horizontalLine",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":120,
+                              "y":545},
+                            "size":{
+                              "width":277,
+                              "height":10},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFC9C9C9},
+                            "linePattern":"dashed"},
+                          "adaptiveStyles":{
+},
+                          "images":{
+                            "start~":"resources/images/transparent.gif",
+                            "end~":"resources/images/transparent.gif",
+                            "line~":"images/home/u2_line.png"}},
+{
+                          "id":"ee56b5797dd0491e812e5c91664a9712",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "location":{
+                              "x":10,
+                              "y":490},
+                            "size":{
+                              "width":100,
+                              "height":60}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"4bb717e107c84ef6bb50ff162a89a02a",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "location":{
+                                  "x":10,
+                                  "y":490},
+                                "size":{
+                                  "width":100,
+                                  "height":60}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u33.png"}},
+{
+                          "id":"2df13264569c446aa2548848819788a4",
+                          "label":"",
+                          "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                            "fontSize":"14px",
+                            "horizontalAlignment":"left",
+                            "verticalAlignment":"top",
+                            "location":{
+                              "x":121,
+                              "y":495},
+                            "size":{
+                              "width":320,
+                              "height":46},
+                            "borderWidth":"-1"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"c69204e19a6f440c91edf294de303c86",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"56cf90579c1845f68c4a98df25c77c01",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                                "fontSize":"14px",
+                                "horizontalAlignment":"left",
+                                "verticalAlignment":"top",
+                                "location":{
+                                  "x":121,
+                                  "y":495},
+                                "size":{
+                                  "width":320,
+                                  "height":46},
+                                "borderWidth":"-1"},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u5.png"}}],
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "image":null,
+                        "imageHorizontalAlignment":"near",
+                        "imageVerticalAlignment":"near",
+                        "imageRepeat":"auto"},
+                      "adaptiveStyles":{
+}}]}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5fa212189bb44cdd83b11f08175267a5":{
+      "scriptId":"u0"},
+    "cc83d84b7aeb48469cf6f71bbc0a2b3e":{
+      "scriptId":"u1"},
+    "b838359ac00e472d81d4b450412fce01":{
+      "scriptId":"u2"},
+    "1ecf8475e846449f8e0855abd48aaf65":{
+      "scriptId":"u3"},
+    "123369ee1e3449ebb0de64c329096804":{
+      "scriptId":"u4"},
+    "4fc5229e7a424473be70213f7cc19277":{
+      "scriptId":"u5"},
+    "4a5974e07c114898b7053f707d4139e6":{
+      "scriptId":"u6"},
+    "ea5d36dc29e34532808535d79671eab1":{
+      "scriptId":"u7"},
+    "8345b82414a943f0985e36d6c028b6c7":{
+      "scriptId":"u8"},
+    "4648f2c6ece8456ebcbf403d7f9f5140":{
+      "scriptId":"u9"},
+    "83993b73beb34dc6aa06242273b1c695":{
+      "scriptId":"u10"},
+    "b3f8aa78d1d74adda30b05ef45e11a8e":{
+      "scriptId":"u11"},
+    "ac005da6f4314e618c32c63ae204f8ef":{
+      "scriptId":"u12"},
+    "3d7001328a744bb1a32a4bc6e99e08b1":{
+      "scriptId":"u13"},
+    "bf06666f201b4969adad7047a9c19495":{
+      "scriptId":"u14"},
+    "641da65274ea4ac99212ce7e3fd6be45":{
+      "scriptId":"u15"},
+    "5bf10a2a07d143f4802e564151788160":{
+      "scriptId":"u16"},
+    "625369d0ff52491ca3c94ef0b8e960f6":{
+      "scriptId":"u17"},
+    "bc8d67db536c4a85afb5852ce11d156f":{
+      "scriptId":"u18"},
+    "a8d99e46ca6f43e9a5f5d134138d6546":{
+      "scriptId":"u19"},
+    "726e39a1d7aa4d42bf8655669db77f36":{
+      "scriptId":"u20"},
+    "3b44d7aa1e9a4b8c919114412cee1ce8":{
+      "scriptId":"u21"},
+    "edbd710ef10f4862993009d333334120":{
+      "scriptId":"u22"},
+    "abffff1ad4f84760ad5b72a43b511123":{
+      "scriptId":"u23"},
+    "79b34088b0094477a7d6ffb698fa41f4":{
+      "scriptId":"u24"},
+    "05df5d15208244e88690219ddfb66cfd":{
+      "scriptId":"u25"},
+    "fa4cdcf7c38546a1a392de85ad8fa593":{
+      "scriptId":"u26"},
+    "0cd59b8a820f4f45aca0f4928e176ff0":{
+      "scriptId":"u27"},
+    "2e7e857ba2ef4a84adfb28c34a327ded":{
+      "scriptId":"u28"},
+    "484b452323d04f25a4e27b117708a6ae":{
+      "scriptId":"u29"},
+    "cbbfe7be9c4d4321ad2c311164449581":{
+      "scriptId":"u30"},
+    "3c0229adb8aa412a9fd84678f2d738df":{
+      "scriptId":"u31"},
+    "754daf04b5484f7e920d98d86b96f1b8":{
+      "scriptId":"u32"},
+    "1343fa6ba0824d70855f9fc4e7182bc3":{
+      "scriptId":"u33"},
+    "d96a53f81ab24bd3b0ebe27539c4bfc6":{
+      "scriptId":"u34"},
+    "76837c55829a4ad7b833771f5a306516":{
+      "scriptId":"u35"},
+    "f8bfa0edb12c4bb8b8e1b00cd1d27227":{
+      "scriptId":"u36"},
+    "56cf90579c1845f68c4a98df25c77c01":{
+      "scriptId":"u37"},
+    "6991217c0d2b44afa4b7ca0b8f32d4b0":{
+      "scriptId":"u38"},
+    "244f4a2a46e7447c846513c030bb2933":{
+      "scriptId":"u39"},
+    "a159ba84b91a457bb53fdd8f6918bee0":{
+      "scriptId":"u40"},
+    "23e73229eaaf4338966fe7d2a6a9b8ad":{
+      "scriptId":"u41"},
+    "f49c194b4c054242b8ef037e28fd8168":{
+      "scriptId":"u42"},
+    "04f6dfe989eb4e4bb7198ec72b7d1e96":{
+      "scriptId":"u43"},
+    "2f1e0ae9cfa9450b881eb69827f4423c":{
+      "scriptId":"u44"},
+    "235b856d99f746669c93c41c104e3d7c":{
+      "scriptId":"u45"},
+    "718525d16827494da31142594c649885":{
+      "scriptId":"u46"},
+    "966d3c35948e4bfdb0b0d1b4627e2288":{
+      "scriptId":"u47"},
+    "f1ab3bbc4a6a4d73ad7b7c88a1a60ca6":{
+      "scriptId":"u48"},
+    "19c10c7218864db9b07d8f9f5104e810":{
+      "scriptId":"u49"},
+    "f889691e174445a2aa723bfef6ae0793":{
+      "scriptId":"u50"},
+    "90d7d72d72424deba089f7b40cb591d7":{
+      "scriptId":"u51"},
+    "8f10fe9d8b464ba68914381fc1c7eaa6":{
+      "scriptId":"u52"},
+    "cf353e378c0c4aaca6fc668664ab49dc":{
+      "scriptId":"u53"},
+    "c5bd77a09e4c48dcb407a5a134000d18":{
+      "scriptId":"u54"},
+    "945183eaf2fc434482f26e393b56c2a1":{
+      "scriptId":"u55"},
+    "daaaffcae0ec465489f04623bc78e6ba":{
+      "scriptId":"u56"},
+    "f3e6c129403d48259b72ec7b73db0934":{
+      "scriptId":"u57"},
+    "6dd431bed6474fb3b71c97f88cc10089":{
+      "scriptId":"u58"},
+    "8f17f6debf284f29abdf7cb64d76936f":{
+      "scriptId":"u59"},
+    "8c11004a892f4633a7935e7f76894b15":{
+      "scriptId":"u60"},
+    "c6e231b2f7624bf687449415f8f61611":{
+      "scriptId":"u61"},
+    "59c8c20e84634daa823ccb0481be679c":{
+      "scriptId":"u62"},
+    "4670b5b3d3244c6f9a8eb0203c245037":{
+      "scriptId":"u63"},
+    "cb6542fa90164160ac641a194c3ce056":{
+      "scriptId":"u64"},
+    "4b17a1e49adc4288a5e896436c618ab0":{
+      "scriptId":"u65"},
+    "c11acbfbd4674932b3e0230e88bf829d":{
+      "scriptId":"u66"},
+    "90daa53fe599455c9fb644e42a943b09":{
+      "scriptId":"u67"},
+    "d3df41a5ed824735b7726c28c1dcd0fd":{
+      "scriptId":"u68"},
+    "ee56b5797dd0491e812e5c91664a9712":{
+      "scriptId":"u69"},
+    "4bb717e107c84ef6bb50ff162a89a02a":{
+      "scriptId":"u70"},
+    "2df13264569c446aa2548848819788a4":{
+      "scriptId":"u71"},
+    "c69204e19a6f440c91edf294de303c86":{
+      "scriptId":"u72"}}});
